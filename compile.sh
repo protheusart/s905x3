@@ -2,7 +2,7 @@
 
 # Instalar las herramientas de compilación necesarias
 sudo apt update
-sudo apt install -y build-essential git bc libssl-dev device-tree-compiler zip
+sudo apt install -y build-essential git bc libssl-dev device-tree-compiler zip mkbootimg
 
 # Descargar el código fuente de u-boot
 git clone https://github.com/hardkernel/u-boot.git -b odroidn2-v2015.01
